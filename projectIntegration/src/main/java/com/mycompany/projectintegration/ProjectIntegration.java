@@ -4,6 +4,7 @@
 
 package com.mycompany.projectintegration;
 import com.mycompany.memberb.MemberB;
+import com.mycompany.booknookstore.MainApp;
 import java.util.Scanner;
 
 
@@ -38,7 +39,7 @@ public class ProjectIntegration {
                     MemberB.main(args);
                     break;
                 case 3:
-                    
+                    MainApp.main(args);
                     break;
                 case 4:
                     System.out.println("Exiting the program. Goodbye!");
